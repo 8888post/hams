@@ -221,10 +221,11 @@ main() {
 
 	while true; do
 		for game_choice in {1..11}; do
-			if [ $game_choice == 8 ]; then
-				max=8
+			if [ $game_choice == 8 ];
+   			then
+				$max=8
 			else
-				max=4
+				$max=4
 			fi
 			
 			for ( i=1; i <= $max; ++i )
