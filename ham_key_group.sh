@@ -219,6 +219,7 @@ generate_key_process() {
 main() {
 	load_proxies "$PROXY_FILE"
 
+declare -i max=0
 	while true; do
 		for game_choice in {1..11}; do
 			if [ $game_choice == 8 ]
