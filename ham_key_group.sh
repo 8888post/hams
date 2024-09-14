@@ -228,7 +228,7 @@ main() {
 				max=4
 			fi
 			
-			for (( i=2; i <= $max; ++i ))
+			for ( i=1; i <= $max; ++i )
 			do
 					
 				if [[ ${#proxies[@]} -gt 0 ]]; then
